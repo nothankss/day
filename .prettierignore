@@ -1,0 +1,11 @@
+node_modules/
+temp/
+library/
+local/
+profiles/
+build/
+dist/
+coverage/
+pnpm-lock.yaml
+docs/连连看衍生小游戏商业化项目_V1.0.md
+docs/小游戏技术设计文档_V1.0.md

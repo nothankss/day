@@ -6,3 +6,11 @@ node_modules/
 dist/
 build/
 *.log
+
+# Cocos generated caches (keep assets/*.meta in version control)
+/temp/
+/library/
+/local/
+/profiles/
+/coverage/
+*.tsbuildinfo

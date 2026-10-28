@@ -1,0 +1,31 @@
+{
+  "name": "day",
+  "version": "0.1.0",
+  "private": true,
+  "description": "DAY shared link-game core and feel prototype",
+  "creator": {
+    "version": "3.8.8"
+  },
+  "uuid": "27dd773c-4721-4ff8-a515-610f87faeaf7",
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": "^22.13.0 || ^24.0.0 || >=26.0.0"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.check.json --noEmit",
+    "test": "vitest run --passWithNoTests",
+    "test:watch": "vitest",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "pnpm typecheck && pnpm lint && pnpm format:check && pnpm test"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "eslint": "10.13.0",
+    "prettier": "3.9.10",
+    "typescript": "5.8.3",
+    "typescript-eslint": "8.72.1",
+    "vitest": "5.0.5"
+  }
+}
